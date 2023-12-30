@@ -1,0 +1,402 @@
+header {
+    background-color:#282928;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top:5px;
+    padding-bottom:5px;
+    
+}
+.home1,.about,.service,.careers,.us{
+    text-decoration: none;
+    color: black;
+    margin-right:30px;
+    font-family: Arial;
+}
+.home1:hover,.about:hover,.service:hover,.careers:hover,.us:hover{
+    color: blue;
+}
+
+header .it {
+    
+    display: flex;
+    align-items: center;
+}
+.it{
+    padding-left:350px; 
+    font-family: Arial;
+    font-size: small;
+    font-weight: bold;
+}
+.mail{
+    font-family: Arial;
+    font-size: small;
+    padding-top: 5px;
+}
+.company-mail{
+    text-decoration: none; 
+    color: white;
+}
+.ConnectUs{
+    display: flex;
+    padding-right:350px;
+    font-family: Arial;
+    font-size: small;
+    font-weight: bold;
+}
+nav{
+    padding-top:15px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+}
+.nav-img{
+    padding-left:250px;
+}
+.nav-img1{
+    height:65px;
+}
+.nav-img2{
+    width:165px;
+    height:65px;
+}
+.nav-part{
+    display: flex;
+    margin-right:30px;
+    padding-right:300px;
+    padding-top:25px;
+}
+.rounded-button {
+    display: inline-block;
+    padding: 6px 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px; /* Adjust the value to increase or decrease the roundness */
+    background-color: #3498db; /* Button background color */
+    font-weight:bold;
+    border: none;
+}
+.slider-img1{
+    width: 100%;
+}
+.img-content{
+    display:flex;justify-content: center;
+}
+.Design-img{
+    padding-top: 15px;
+}
+.para-content{
+    font-family:Arial;
+    padding-top:75px;
+    color:rgb(4, 55, 82);
+    font-size:30px;
+    font-weight: 400;
+}
+.ourpurpose{
+    font-family:Arial;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.1);
+    padding-bottom:10px;
+    margin-left:50px;
+    margin-right:50px;
+}
+.ourpurpose-content{
+    font-family:'Calibri';
+    font-size:30px;
+}
+.whoWe{
+   margin-top: 20px;
+    margin-left:0px;
+}
+.Global-consulting{
+    font-family:sans-serif;
+}
+.company-name{
+    color: rgb(29, 168, 242);
+    font-family:sans-serif;
+
+}
+.company-about{
+    font-family:-serif;
+    color: rgb(30, 31, 34);
+}
+.button2{
+    margin-top:35px;
+    color: black;
+    background-color:  rgb(29, 168, 242);
+    border:0px;
+    padding: 10px 15px;
+    border-radius:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* transition: color 0.3s;
+    box-shadow: 0 0 10px black;
+    transition: transform 0.3s ease-in-out; */
+    /* box-shadow: 5px 5px 10px #888888; Horizontal offset, Vertical offset, Blur radius, Color */
+    /* transition: box-shadow 0.3s; */
+    box-shadow:5px 6px 0px 2px black;
+}
+.button2:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+    /* box-shadow: 2px 2px 5px #888888; */
+}
+.container {
+    margin-top: 20px;
+    display: flex;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-overlay {
+    font-family:sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    left: 135px;
+    top:9px;
+    color: black;
+    background-color:lightblue;
+    margin-top:50px;
+    margin-left: 230px;
+}
+.icon-container{
+    display: flex;
+}
+.footer-one{
+    margin-left:220px;
+    padding-top:50px;
+}
+.footer-info{
+    margin-left: 20px;
+}
+.ourclass1{
+    position: absolute;
+    top:20px;
+    left:20px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 90px;
+    margin-left: 230px;
+    box-shadow:rgba(131, 208, 250, 0.6) 0px 0px 4px 5px;
+    transition: transform 0.3s ease-in-out; 
+}
+.ourclass1:hover{
+    transform: scale(1.2);
+}
+.our-consulting
+{
+ position: absolute;
+ top: 10px;
+ left: 10px;
+ color: white;
+ margin-top:180px;
+ margin-left:245px;
+ font-family:sans-serif
+}
+.ourclass2{
+    position: absolute;
+    top:20px;
+    left:80px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 90px;
+    margin-left:545px;
+    box-shadow:rgba(131, 208, 250, 0.6) 0px 0px 4px 5px;
+    transition: transform 0.3s ease-in-out; 
+
+}
+.ourclass2:hover{
+    transform: scale(1.2);
+}
+.our-dovelop{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    margin-top:180px;
+    margin-left:610px;
+    font-family:sans-serif
+}
+.ourclass3{
+    position: absolute;
+    top:20px;
+    left:120px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 90px;
+    margin-left:900px;
+    box-shadow:rgba(131, 208, 250, 0.6) 0px 0px 4px 5px;
+    transition: transform 0.3s ease-in-out; 
+}
+.ourclass3:hover{
+    transform: scale(1.2);
+}
+.our-Corporate{
+    position: absolute;
+    top: 10px;
+   left: 10px;
+   color: white;
+   margin-top:180px;
+   margin-left:1000px;
+   font-family:sans-serif
+}
+.ourclass4{
+    position: absolute;
+    top:200px;
+    left:20px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top:130px;
+    margin-left: 230px;
+    box-shadow:rgba(131, 208, 250, 0.6) 0px 0px 4px 5px;
+    transition: transform 0.3s ease-in-out; 
+}
+.ourclass4:hover{
+    transform: scale(1.2);
+}
+.our-cloud{
+    position: absolute;
+    top: 10px;
+   left: 10px;
+   color: white;
+   margin-top:395px;
+   margin-left:245px;
+   font-family:sans-serif
+
+}
+.ourclass5{
+    position: absolute;
+    top:200px;
+    left:80px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top:130px;
+    margin-left:550px;
+    border-radius: 50%; /* Make the image rounded */
+    box-shadow:rgba(131, 208, 250, 0.6) 0px 0px 4px 5px;
+    transition: transform 0.3s ease-in-out; 
+  /*box-shadow: 0 0 15px white;*/ /* Add a rounded shadow */
+    /* box-shadow: 4px 4px 4px 4px white; */
+}
+.ourclass5:hover{
+    transform: scale(1.2);
+}
+.our-It{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    margin-top:395px;
+    margin-left:620px;
+    font-family:sans-serif
+}
+.footer-pera{
+    margin-left:30px;
+    padding-top: 55px;
+    color:rgb(4, 55, 82);
+    font-family:Arial;
+
+}
+.join-us-button{
+    display: inline-block;
+    padding: 6px 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px; /* Adjust the value to increase or decrease the roundness */
+    background-color: #3498db; /* Button background color */
+    font-weight:bold;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-left:390px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.join-us-button:hover{
+    background-color:rgb(214, 158, 74) ;
+    color: white;
+}
+.footer-CONTACT-INFO{
+    margin-left: 20px;
+}
+.Contact-name{
+    color: black;
+    font-family:sans-serif;
+    margin-left:70px;
+}
+.Office-address{
+    display: flex; 
+    color: rgb(30, 31, 34);
+    font-family:sans-serif;
+}
+.home-icon-1{
+    margin-left:30px;
+    margin-top:10px;
+}
+.Office-address-main{
+    margin-left: 20px;
+}
+.Office-phone{
+    display: flex; 
+    color: rgb(30, 31, 34);
+    font-family:sans-serif;
+}
+.phone-num-photo{
+    margin-left:30px;
+    margin-top:10px;
+}
+.phone-num{
+    margin-left:20px;
+    margin-top:10px;
+}
+.Office-mail{
+    display: flex; 
+    color: rgb(30, 31, 34);
+    font-family:sans-serif;
+}
+.Office-mail-icon{
+    margin-left:30px;
+    margin-top:10px;
+}
+.Office-mail-off{
+    margin-left:20px;
+    margin-top:10px;
+}
+.copyright{
+    background-color: black;
+    height:30px;
+    color: white;
+    text-align: center; 
+    margin-top:0px;
+    font-family:sans-serif;
+}
+.copyright-para{
+    padding-top:5px;
+}
+@media only screen and (max-width: 600px) {
+    .image-text {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }
